@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp">
+<ImageButton
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/imgBtn"
+    android:layout_gravity="center_horizontal"
+    android:scaleType="fitXY"
+    android:layout_weight="1"
+    android:adjustViewBounds="false"
+    android:longClickable="false"
+    android:maxHeight="10dp"
+    android:minHeight="0dp"
+    android:cropToPadding="false"
+    android:src="@drawable/map_button"
+    android:layout_alignParentTop="false"
+    android:layout_alignParentLeft="false"
+    android:layout_alignParentBottom="false"
+    android:layout_alignParentRight="false"
+    android:layout_alignWithParentIfMissing="false"
+    android:layout_alignParentEnd="false"
+    android:layout_alignParentStart="false"
+    android:nestedScrollingEnabled="false"
+    android:paddingLeft="0dp"
+    android:padding="0dp"
+    android:paddingTop="0dp"
+    android:paddingRight="0dp" />
+</RelativeLayout>
